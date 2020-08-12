@@ -93,30 +93,30 @@
   }
 
   chest.addEventListener('click', function () {
-    exercise('Push ups for Chest', './../assets/gifs/chest.gif')
+    exercise('Push ups for Chest', 'assets/gifs/chest.gif')
   });
 
   heart.addEventListener('click', function () {
-    exercise('Burpees for Heart', './../assets/gifs/heart.gif')
+    exercise('Burpees for Heart', 'assets/gifs/heart.gif')
   });
 
   hamstrings.addEventListener('click', function () {
-    exercise('Bridges for Hamstrings', './../assets/gifs/hamgstrings.gif')
+    exercise('Bridges for Hamstrings', 'assets/gifs/hamstrings.gif')
   });
 
   core.addEventListener('click', function () {
-    exercise('Plank for Core', './../assets/gifs/core.gif')
+    exercise('Plank for Core', 'assets/gifs/core.gif')
   });
 
   quadriceps.addEventListener('click', function () {
-    exercise('Lunge for Quadriceps', './../assets/gifs/quadriceps.gif')
+    exercise('Lunge for Quadriceps', 'assets/gifs/quadriceps.gif')
   });
 
   triceps.addEventListener('click', function () {
-    exercise('Close grip push ups for Triceps', './../assets/gifs/triceps.gif')
+    exercise('Close grip push ups for Triceps', 'assets/gifs/triceps.gif')
   });
 
   shoulders.addEventListener('click', function () {
-    exercise('Pike push ups for Shoulders', './../assets/gifs/shoulders.gif')
+    exercise('Pike push ups for Shoulders', 'assets/gifs/shoulders.gif')
   });
   

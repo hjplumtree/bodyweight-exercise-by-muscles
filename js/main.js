@@ -91,36 +91,32 @@
     window.scrollTo(0, 0);
     document.getElementById('wrapper').removeChild(document.getElementById('exercise-field-id'));
   }
-  // for (let i = 0; i < muscle.length; i++) {
-  //   muscle[i].onclick = function() {
-  //     alert('ss ')
-  //   }
-  // }
+
   chest.addEventListener('click', function () {
-    exercise('Push ups for Chest', 'https://media.giphy.com/media/5t9IcXiBCyw60XPpGu/giphy.gif')
+    exercise('Push ups for Chest', './../assets/gifs/chest.gif')
   });
 
   heart.addEventListener('click', function () {
-    exercise('Burpees for Heart', 'https://media.giphy.com/media/4Hx33hvGMdeyK016mT/giphy.gif')
+    exercise('Burpees for Heart', './../assets/gifs/heart.gif')
   });
 
   hamstrings.addEventListener('click', function () {
-    exercise('Bridges for Hamstrings', 'https://media.giphy.com/media/oOGc4pXsX22XjE2eTA/giphy.gif')
+    exercise('Bridges for Hamstrings', './../assets/gifs/hamgstrings.gif')
   });
 
   core.addEventListener('click', function () {
-    exercise('Plank for Core', 'https://media.giphy.com/media/5tmpTAIMt4H89W7H0G/giphy.gif')
+    exercise('Plank for Core', './../assets/gifs/core.gif')
   });
 
   quadriceps.addEventListener('click', function () {
-    exercise('Lunge for Quadriceps', 'https://media.giphy.com/media/4WFgWNagLFxOsTyuap/giphy.gif')
+    exercise('Lunge for Quadriceps', './../assets/gifs/quadriceps.gif')
   });
 
   triceps.addEventListener('click', function () {
-    exercise('Close grip push ups for Triceps', 'https://media.giphy.com/media/tsTsgT7v6wy5hYXI9U/giphy.gif')
+    exercise('Close grip push ups for Triceps', './../assets/gifs/triceps.gif')
   });
 
   shoulders.addEventListener('click', function () {
-    exercise('Pike push ups for Shoulders', 'https://i1.wp.com/img.aws.livestrongcdn.com/ls-slideshow-main-image/cme/photography.prod.demandstudios.com/cd8d1fac-4cb2-4607-bd6b-59a4a7a5b026.gif?zoom=1.25&resize=364%2C242')
+    exercise('Pike push ups for Shoulders', './../assets/gifs/shoulders.gif')
   });
   

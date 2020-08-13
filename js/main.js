@@ -68,6 +68,8 @@
     div.scrollIntoView({behavior: "smooth"});
   }
 
+  // It's the code before refactor the code below
+
   // const chestExercise = () => {
   //   if(document.getElementById('exercise-field-id')) {
   //     closeExercise();
@@ -93,30 +95,30 @@
   }
 
   chest.addEventListener('click', function () {
-    exercise('Push ups for Chest', 'assets/gifs/chest.gif')
+    exercise('Push ups for Chest', 'img/chest.gif')
   });
 
   heart.addEventListener('click', function () {
-    exercise('Burpees for Heart', 'assets/gifs/heart.gif')
+    exercise('Burpees for Heart', 'img/heart.gif')
   });
 
   hamstrings.addEventListener('click', function () {
-    exercise('Bridges for Hamstrings', 'assets/gifs/hamstrings.gif')
+    exercise('Bridges for Hamstrings', 'img/hamstrings.gif')
   });
 
   core.addEventListener('click', function () {
-    exercise('Plank for Core', 'assets/gifs/core.gif')
+    exercise('Plank for Core', 'img/core.gif')
   });
 
   quadriceps.addEventListener('click', function () {
-    exercise('Lunge for Quadriceps', 'assets/gifs/quadriceps.gif')
+    exercise('Lunge for Quadriceps', 'img/quadriceps.gif')
   });
 
   triceps.addEventListener('click', function () {
-    exercise('Close grip push ups for Triceps', 'assets/gifs/triceps.gif')
+    exercise('Close grip push ups for Triceps', 'img/triceps.gif')
   });
 
   shoulders.addEventListener('click', function () {
-    exercise('Pike push ups for Shoulders', 'assets/gifs/shoulders.gif')
+    exercise('Pike push ups for Shoulders', 'img/shoulders.gif')
   });
   
